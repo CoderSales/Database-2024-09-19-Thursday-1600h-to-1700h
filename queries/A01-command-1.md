@@ -39,3 +39,18 @@ WHERE speed >= 3.00;
 ```
 
 ____
+
+```SQL
+SELECT *
+
+FROM `printers`
+
+WHERE type = 'laser'
+
+AND color = 'TRUE';
+
+```
+
+____
+
+
