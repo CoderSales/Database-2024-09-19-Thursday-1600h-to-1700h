@@ -53,4 +53,15 @@ AND color = 'TRUE';
 
 ____
 
+```SQL
+SELECT *
+
+
+FROM `sales` 
+
+WHERE type_of_payment LIKE '%debit%' OR '%credit%';
+```
+
+____
+
 
