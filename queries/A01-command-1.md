@@ -53,6 +53,8 @@ AND color = 'TRUE';
 
 ____
 
+Attempt:
+
 ```SQL
 SELECT *
 
@@ -64,12 +66,24 @@ WHERE type_of_payment LIKE '%debit%' OR '%credit%';
 
 ____
 
+Correction:
+
 ```SQL
 SELECT *
 
 FROM `sales` 
 
 WHERE type_of_payment LIKE '%visa%';
+```
+
+____
+
+```SQL
+SELECT firstname, lastname, city, address 
+
+FROM customers
+
+WHERE firstname LIKE '%e%' OR lastname LIKE '%e%';
 ```
 
 ____
