@@ -95,3 +95,14 @@ FROM sales
 
 WHERE day BETWEEN '2013-12-18' AND '2013-12-20';
 ```
+
+____
+
+```SQL
+SELECT *
+
+FROM sales
+
+WHERE day < '2013-12-18' OR day > '2013-12-20';
+```
+
