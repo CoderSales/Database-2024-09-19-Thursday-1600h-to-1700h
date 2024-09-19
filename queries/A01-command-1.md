@@ -106,3 +106,15 @@ FROM sales
 WHERE day < '2013-12-18' OR day > '2013-12-20';
 ```
 
+____
+
+```SQL
+SELECT price, model, price*0.93 AS euro
+
+FROM laptops
+
+WHERE ram >= 1024;
+```
+
+____
+
