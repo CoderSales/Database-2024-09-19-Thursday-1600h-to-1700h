@@ -87,3 +87,11 @@ WHERE firstname LIKE '%e%' OR lastname LIKE '%e%';
 ```
 
 ____
+
+```SQL
+SELECT *
+
+FROM sales
+
+WHERE day BETWEEN '2013-12-18' AND '2013-12-20';
+```
