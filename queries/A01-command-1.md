@@ -1,1 +1,4 @@
 
+```SQL
+SELECT * FROM customers;
+```
