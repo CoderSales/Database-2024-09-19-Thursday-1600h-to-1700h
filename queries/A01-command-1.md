@@ -64,4 +64,12 @@ WHERE type_of_payment LIKE '%debit%' OR '%credit%';
 
 ____
 
+```SQL
+SELECT *
 
+FROM `sales` 
+
+WHERE type_of_payment LIKE '%visa%';
+```
+
+____
