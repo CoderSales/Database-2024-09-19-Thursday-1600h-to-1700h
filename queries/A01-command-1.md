@@ -26,3 +26,16 @@ FROM `products`
 WHERE NOT (maker = 'B');
 
 ```
+
+____
+
+```SQL
+SELECT *
+
+FROM `pcs`
+
+WHERE speed >= 3.00;
+
+```
+
+____
